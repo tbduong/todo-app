@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "../what2wear"
 		}
 	],
 	"settings": {}

@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "bootstrap": "^5.2.0-beta1",
+    "bootstrap-jquery": "^3.3.2",
+    "jquery": "^3.6.0",
+    "jsdom": "^19.0.0",
     "node-sass": "^7.0.1"
   },
   "scripts": {
