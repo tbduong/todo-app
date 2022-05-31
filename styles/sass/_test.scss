@@ -1,6 +1,55 @@
-$red: red; //declare a variable
-$blue: blue;
+ $light-gray: #fafafa;
+$main-bg: #f0f0ff;
+$primary: #4D6CFA;
 
+body {
+    background: $main-bg;
+}
 h1 {
-    color: $red;
+    color: $primary;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.main-section {
+    background: $light-gray;
+    border-radius: 5px;
+    max-width: 500px;
+    padding: 50px 25px;
+}
+
+.todo-form {
+    input {
+        border: 0 solid; 
+        border-radius: 5px;
+        padding: 10px;
+        width: 87%;
+    }
+}
+
+.todo-list {
+    padding: 0;
+
+    li {
+        list-style-type: none;
+        text-align: left;
+        background: #fff;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        padding: 10px;
+    }
+}
+
+#todo-add {
+    border: none;
+    border-radius: 5px;
+    background-color: $primary;
+    color: #fff;
+    display: inline-block;
+    padding: 10px;
+    width: 50px;
 }

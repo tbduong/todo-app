@@ -7,5 +7,7 @@
 			"path": "../what2wear"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "todo"
+	}
 }

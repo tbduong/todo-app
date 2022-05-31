@@ -14,9 +14,26 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <div class="container text-center">
+            <h1 class="app-title">todos</h1>
+                <p>What do you need to get done?</p>
+        </div>
+        <div class="container main-section">
+            <div class="col-sm text-center">
+                <div id="notification">Your task is is currently empty.</div>
+                <ul class="todo-list" id="todo-list"></ul>
 
-        <h1>To Do List</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam impedit aspernatur sequi reprehenderit tempora, rerum corrupti cupiditate placeat illum error esse explicabo fugit alias recusandae minus vel accusamus tenetur ratione!</p>
+            </div>
+
+            <!--form start-->
+            <form class="todo-form text-center">
+                <input autofocus type="text" aria-label="Enter a new todo item" placeholder="Add a task" class="todo-input">
+                <button id="todo-add">+</button>
+            </form>
+
+        </div>
+     
+        
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>    
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
         <script src="./js/app.js" async defer></script>
