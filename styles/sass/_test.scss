@@ -1,13 +1,18 @@
  $light-gray: #fafafa;
 $main-bg: #f0f0ff;
 $primary: #4D6CFA;
+$red: #FF2E2E;
 
 body {
     background: $main-bg;
+    display: block;
+    height: 100vh;
+    padding-top: 50px;
+    font-family: "Poppins", sans-serif;
 }
 h1 {
     color: $primary;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 600;
 }
 
@@ -39,6 +44,7 @@ h2 {
         text-align: left;
         background: #fff;
         border-radius: 5px;
+        font-weight: 600;
         margin-bottom: 15px;
         padding: 10px;
     }
@@ -52,4 +58,22 @@ h2 {
     display: inline-block;
     padding: 10px;
     width: 50px;
+}
+
+.delete {
+    border: none;
+    border-radius:  50%; 
+    background: $red;
+    color: #fff;
+    display: inline;
+    float: right;
+    height: 25px;
+    opacity: 0.5;
+    transition: 0.3s;
+    width: 25px;
+    
+
+    &:hover {
+        opacity: 1;
+    }
 }

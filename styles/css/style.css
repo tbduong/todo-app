@@ -1,9 +1,13 @@
 body {
-  background: #f0f0ff; }
+  background: #f0f0ff;
+  display: block;
+  height: 100vh;
+  padding-top: 50px;
+  font-family: "Poppins", sans-serif; }
 
 h1 {
   color: #4D6CFA;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 600; }
 
 h2 {
@@ -28,6 +32,7 @@ h2 {
     text-align: left;
     background: #fff;
     border-radius: 5px;
+    font-weight: 600;
     margin-bottom: 15px;
     padding: 10px; }
 
@@ -39,3 +44,17 @@ h2 {
   display: inline-block;
   padding: 10px;
   width: 50px; }
+
+.delete {
+  border: none;
+  border-radius: 50%;
+  background: #FF2E2E;
+  color: #fff;
+  display: inline;
+  float: right;
+  height: 25px;
+  opacity: 0.5;
+  transition: 0.3s;
+  width: 25px; }
+  .delete:hover {
+    opacity: 1; }
