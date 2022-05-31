@@ -5,6 +5,15 @@ $(document).ready(function(){
     var todoInput = $('.todo-input');
     var notification = $('#notification');
 
+//Notification handler
+var displayNotification = function() {
+    if(!todoList.children().length){
+        notification.fadeIn("fast");
+    } else {
+        notification.css("display", "none");
+    }
+}
+
 //attach event handler to the add button
 $('#todo-add').on("click", function(e){
     e.preventDefault();
@@ -17,9 +26,9 @@ $('#todo-add').on("click", function(e){
     //add new todo item to todo list
         todoList.append("<li>" + todoInput.val());
         notification.css("display", "none");
-
+        //clean input after submit
+        todoInput.val('');
     }
-
 });
 
 
